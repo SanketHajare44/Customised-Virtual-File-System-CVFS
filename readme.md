@@ -124,11 +124,12 @@ Thank you for using CVFS.
 ```
 Customised-Virtual-File-System-CVFS/
 ├── src/
-│   ├── cvfs.h       Macros, structs, function prototypes
 │   ├── cvfs.c       System call implementations
 │   └── main.c       Shell loop and command dispatcher
-├── docs/
-│   └── architecture.md
+|
+├── include/
+│   ├── cvfs.h       Macros, structs, function prototypes
+|
 ├── Makefile
 └── README.md
 ```
