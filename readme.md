@@ -140,4 +140,4 @@ Customised-Virtual-File-System-CVFS/
 
 **Sanket Sadashiv Hajare**  
 GitHub : [Link](https://github.com/SanketHajare44)  
-LinkedIn : [Link](www.linkedin.com/in/sankethajare)
+LinkedIn : [Link](https://www.linkedin.com/in/sankethajare/)
