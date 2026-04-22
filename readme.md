@@ -1,7 +1,9 @@
 # Customised Virtual File System (CVFS)
 
-A virtual file system built in C that emulates the internal working of the UNIX File System.
-All data structures are maintained in RAM — no actual disk I/O involved.
+This project is a custom implementation of a Virtual File System (VFS) that simulates
+the core functionality of the Linux file system. It is built entirely in C, with its own custom
+shell to interact with the virtual environment. The project provides a practical understanding
+of system calls, file handling, memory management, and OS internals.
 
 ---
 
@@ -68,8 +70,8 @@ exit                       Exit the shell
 
 **Clone**
 ```bash
-git clone https://github.com/your-username/CustomisedVirtualFileSystem.git
-cd CustomisedVirtualFileSystem
+git clone https://github.com/SanketHajare44/Customised-Virtual-File-System-CVFS
+cd Customised-Virtual-File-System-CVFS
 ```
 
 **Build**
@@ -91,28 +93,28 @@ gcc -Wall src/main.c src/cvfs.c -o Myexe
 ## Example
 
 ```
-Marvellous CVFS :> creat Demo.txt 3
+CVFS :> creat Demo.txt 3
 File 'Demo.txt' created successfully — File Descriptor : 3
 
-Marvellous CVFS :> write 3
+CVFS :> write 3
 Enter data to write :
 Jay Ganesh
 10 bytes written successfully
 
-Marvellous CVFS :> read 3 10
+CVFS :> read 3 10
 Data : Jay Ganesh
 
-Marvellous CVFS :> stat Demo.txt
+CVFS :> stat Demo.txt
  File Name      : Demo.txt
  Inode Number   : 1
  Actual Size    : 10 Bytes
  Permission     : Read Write
 
-Marvellous CVFS :> unlink Demo.txt
+CVFS :> unlink Demo.txt
 File 'Demo.txt' deleted successfully
 
-Marvellous CVFS :> exit
-Thank you for using Marvellous CVFS. Goodbye!
+CVFS :> exit
+Thank you for using CVFS.
 ```
 
 ---
@@ -120,7 +122,7 @@ Thank you for using Marvellous CVFS. Goodbye!
 ## Project Structure
 
 ```
-CustomisedVirtualFileSystem/
+Customised-Virtual-File-System-CVFS/
 ├── src/
 │   ├── cvfs.h       Macros, structs, function prototypes
 │   ├── cvfs.c       System call implementations
@@ -136,5 +138,5 @@ CustomisedVirtualFileSystem/
 ## Author
 
 **Sanket Sadashiv Hajare**  
-GitHub : [@your-username](https://github.com/your-username)  
-LinkedIn : [your-linkedin](https://linkedin.com/in/your-linkedin)
+GitHub : [Link](https://github.com/SanketHajare44)  
+LinkedIn : [Link](www.linkedin.com/in/sankethajare)
